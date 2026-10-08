@@ -1,0 +1,44 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PetcoreSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import CryptoKit
+import Foundation
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class PetcoreClient {
+  public static let shared: PetcoreSDK.PetcoreClient
+  public static let sdkVersion: Swift.String
+  final public func setLicenseRejectedHandler(_ handler: ((PetcoreSDK.PetcoreSdkError) -> Swift.Void)?)
+  final public func initialize(licenseKey: Swift.String, completion: @escaping (PetcoreSDK.PetcoreSdkError?) -> Swift.Void)
+  final public func randomPetname() throws -> Swift.String
+  final public func randomNumber(min: Swift.Int = 0, max: Swift.Int = 100) throws -> Swift.Int
+  final public func batteryLevel() throws -> Swift.Int
+  final public func observeBattery(_ listener: @escaping (Swift.Int) -> Swift.Void) throws -> () -> Swift.Void
+  final public func info() -> [Swift.String : Any]
+  @objc deinit
+}
+public enum PetcoreErrorCode {
+  public static let notInitialized: Swift.String
+  public static let licenseInvalid: Swift.String
+  public static let licenseRejected: Swift.String
+  public static let licenseExpired: Swift.String
+  public static let appMismatch: Swift.String
+  public static let network: Swift.String
+  public static let featureDisabled: Swift.String
+  public static let batteryUnavailable: Swift.String
+  public static let `internal`: Swift.String
+  public static let invalidArgument: Swift.String
+}
+public struct PetcoreSdkError : Swift.Error, Swift.CustomStringConvertible {
+  public let code: Swift.String
+  public let message: Swift.String
+  public init(code: Swift.String, message: Swift.String)
+  public var description: Swift.String {
+    get
+  }
+}

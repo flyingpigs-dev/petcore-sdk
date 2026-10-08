@@ -1,0 +1,1401 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PetcoreSDK",
+    "printedName": "PetcoreSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PetcoreClient",
+        "printedName": "PetcoreClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PetcoreClient",
+                "printedName": "PetcoreSDK.PetcoreClient",
+                "usr": "s:10PetcoreSDK0A6ClientC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A6ClientC6sharedACvpZ",
+            "mangledName": "$s10PetcoreSDK0A6ClientC6sharedACvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PetcoreClient",
+                    "printedName": "PetcoreSDK.PetcoreClient",
+                    "usr": "s:10PetcoreSDK0A6ClientC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A6ClientC6sharedACvgZ",
+                "mangledName": "$s10PetcoreSDK0A6ClientC6sharedACvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A6ClientC10sdkVersionSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A6ClientC10sdkVersionSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A6ClientC10sdkVersionSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A6ClientC10sdkVersionSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setLicenseRejectedHandler",
+            "printedName": "setLicenseRejectedHandler(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((PetcoreSDK.PetcoreSdkError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PetcoreSDK.PetcoreSdkError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PetcoreSdkError",
+                        "printedName": "PetcoreSDK.PetcoreSdkError",
+                        "usr": "s:10PetcoreSDK0A8SdkErrorV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10PetcoreSDK0A6ClientC25setLicenseRejectedHandleryyyAA0A8SdkErrorVcSgF",
+            "mangledName": "$s10PetcoreSDK0A6ClientC25setLicenseRejectedHandleryyyAA0A8SdkErrorVcSgF",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(licenseKey:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PetcoreSDK.PetcoreSdkError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PetcoreSDK.PetcoreSdkError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PetcoreSdkError",
+                        "printedName": "PetcoreSDK.PetcoreSdkError",
+                        "usr": "s:10PetcoreSDK0A8SdkErrorV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10PetcoreSDK0A6ClientC10initialize10licenseKey10completionySS_yAA0A8SdkErrorVSgctF",
+            "mangledName": "$s10PetcoreSDK0A6ClientC10initialize10licenseKey10completionySS_yAA0A8SdkErrorVSgctF",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "randomPetname",
+            "printedName": "randomPetname()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10PetcoreSDK0A6ClientC13randomPetnameSSyKF",
+            "mangledName": "$s10PetcoreSDK0A6ClientC13randomPetnameSSyKF",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "randomNumber",
+            "printedName": "randomNumber(min:max:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10PetcoreSDK0A6ClientC12randomNumber3min3maxS2i_SitKF",
+            "mangledName": "$s10PetcoreSDK0A6ClientC12randomNumber3min3maxS2i_SitKF",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "batteryLevel",
+            "printedName": "batteryLevel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10PetcoreSDK0A6ClientC12batteryLevelSiyKF",
+            "mangledName": "$s10PetcoreSDK0A6ClientC12batteryLevelSiyKF",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "observeBattery",
+            "printedName": "observeBattery(_:)",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10PetcoreSDK0A6ClientC14observeBatteryyyycySicKF",
+            "mangledName": "$s10PetcoreSDK0A6ClientC14observeBatteryyyycySicKF",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10PetcoreSDK0A6ClientC4infoSDySSypGyF",
+            "mangledName": "$s10PetcoreSDK0A6ClientC4infoSDySSypGyF",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10PetcoreSDK0A6ClientC",
+        "mangledName": "$s10PetcoreSDK0A6ClientC",
+        "moduleName": "PetcoreSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PetcoreErrorCode",
+        "printedName": "PetcoreErrorCode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notInitialized",
+            "printedName": "notInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A9ErrorCodeO14notInitializedSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A9ErrorCodeO14notInitializedSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A9ErrorCodeO14notInitializedSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A9ErrorCodeO14notInitializedSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "licenseInvalid",
+            "printedName": "licenseInvalid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A9ErrorCodeO14licenseInvalidSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A9ErrorCodeO14licenseInvalidSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A9ErrorCodeO14licenseInvalidSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A9ErrorCodeO14licenseInvalidSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "licenseRejected",
+            "printedName": "licenseRejected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A9ErrorCodeO15licenseRejectedSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A9ErrorCodeO15licenseRejectedSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A9ErrorCodeO15licenseRejectedSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A9ErrorCodeO15licenseRejectedSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "licenseExpired",
+            "printedName": "licenseExpired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A9ErrorCodeO14licenseExpiredSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A9ErrorCodeO14licenseExpiredSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A9ErrorCodeO14licenseExpiredSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A9ErrorCodeO14licenseExpiredSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appMismatch",
+            "printedName": "appMismatch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A9ErrorCodeO11appMismatchSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A9ErrorCodeO11appMismatchSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A9ErrorCodeO11appMismatchSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A9ErrorCodeO11appMismatchSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "network",
+            "printedName": "network",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A9ErrorCodeO7networkSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A9ErrorCodeO7networkSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A9ErrorCodeO7networkSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A9ErrorCodeO7networkSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureDisabled",
+            "printedName": "featureDisabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A9ErrorCodeO15featureDisabledSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A9ErrorCodeO15featureDisabledSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A9ErrorCodeO15featureDisabledSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A9ErrorCodeO15featureDisabledSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batteryUnavailable",
+            "printedName": "batteryUnavailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A9ErrorCodeO18batteryUnavailableSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A9ErrorCodeO18batteryUnavailableSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A9ErrorCodeO18batteryUnavailableSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A9ErrorCodeO18batteryUnavailableSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "internal",
+            "printedName": "internal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A9ErrorCodeO8internalSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A9ErrorCodeO8internalSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A9ErrorCodeO8internalSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A9ErrorCodeO8internalSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidArgument",
+            "printedName": "invalidArgument",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A9ErrorCodeO15invalidArgumentSSvpZ",
+            "mangledName": "$s10PetcoreSDK0A9ErrorCodeO15invalidArgumentSSvpZ",
+            "moduleName": "PetcoreSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A9ErrorCodeO15invalidArgumentSSvgZ",
+                "mangledName": "$s10PetcoreSDK0A9ErrorCodeO15invalidArgumentSSvgZ",
+                "moduleName": "PetcoreSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10PetcoreSDK0A9ErrorCodeO",
+        "mangledName": "$s10PetcoreSDK0A9ErrorCodeO",
+        "moduleName": "PetcoreSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PetcoreSdkError",
+        "printedName": "PetcoreSdkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A8SdkErrorV4codeSSvp",
+            "mangledName": "$s10PetcoreSDK0A8SdkErrorV4codeSSvp",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A8SdkErrorV4codeSSvg",
+                "mangledName": "$s10PetcoreSDK0A8SdkErrorV4codeSSvg",
+                "moduleName": "PetcoreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A8SdkErrorV7messageSSvp",
+            "mangledName": "$s10PetcoreSDK0A8SdkErrorV7messageSSvp",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A8SdkErrorV7messageSSvg",
+                "mangledName": "$s10PetcoreSDK0A8SdkErrorV7messageSSvg",
+                "moduleName": "PetcoreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(code:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PetcoreSdkError",
+                "printedName": "PetcoreSDK.PetcoreSdkError",
+                "usr": "s:10PetcoreSDK0A8SdkErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10PetcoreSDK0A8SdkErrorV4code7messageACSS_SStcfc",
+            "mangledName": "$s10PetcoreSDK0A8SdkErrorV4code7messageACSS_SStcfc",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10PetcoreSDK0A8SdkErrorV11descriptionSSvp",
+            "mangledName": "$s10PetcoreSDK0A8SdkErrorV11descriptionSSvp",
+            "moduleName": "PetcoreSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PetcoreSDK0A8SdkErrorV11descriptionSSvg",
+                "mangledName": "$s10PetcoreSDK0A8SdkErrorV11descriptionSSvg",
+                "moduleName": "PetcoreSDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10PetcoreSDK0A8SdkErrorV",
+        "mangledName": "$s10PetcoreSDK0A8SdkErrorV",
+        "moduleName": "PetcoreSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "PetcoreSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/LicenseVerifier.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 45,
+      "value": "\"Ab9mRVpLJwpfDo5r10fz9u459p1z9YlsDRYg3LAe9bI\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/LicenseVerifier.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 17,
+      "value": "\"petcore-license\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/LicenseVerifier.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "StringLiteral",
+      "offset": 457,
+      "length": 7,
+      "value": "\"0.2.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "StringLiteral",
+      "offset": 784,
+      "length": 18,
+      "value": "\"PetcoreServerURL\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 985,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 990,
+      "length": 4,
+      "value": "3600"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1139,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1294,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5703,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5717,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7698,
+      "length": 40,
+      "value": "\"dev.flyingpigs.petcore.license-monitor\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7799,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8039,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8072,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreSdkError.swift",
+      "kind": "StringLiteral",
+      "offset": 163,
+      "length": 17,
+      "value": "\"NOT_INITIALIZED\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreSdkError.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 17,
+      "value": "\"LICENSE_INVALID\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreSdkError.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 18,
+      "value": "\"LICENSE_REJECTED\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreSdkError.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 17,
+      "value": "\"LICENSE_EXPIRED\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreSdkError.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 14,
+      "value": "\"APP_MISMATCH\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreSdkError.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 9,
+      "value": "\"NETWORK\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreSdkError.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 18,
+      "value": "\"FEATURE_DISABLED\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreSdkError.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 21,
+      "value": "\"BATTERY_UNAVAILABLE\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreSdkError.swift",
+      "kind": "StringLiteral",
+      "offset": 606,
+      "length": 10,
+      "value": "\"INTERNAL\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreSdkError.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 18,
+      "value": "\"INVALID_ARGUMENT\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/Petnames.swift",
+      "kind": "Array",
+      "offset": 137,
+      "length": 390,
+      "value": "[\"Captain Pickles\", \"Turbo Llama\", \"Sir Wobbles\", \"Disco Panda\", \"Midnight Waffle\", \"Cosmic Noodle\", \"Professor Fuzz\", \"Ninja Biscuit\", \"Thunder Muffin\", \"Pixel Penguin\", \"Baron von Snack\", \"Rocket Raccoon\", \"Velvet Thunder\", \"Sneaky Pretzel\", \"Lord Quackington\", \"Jazz Hands\", \"Mango Tornado\", \"Silent Taco\", \"Bubbles McFly\", \"Chief Snoozer\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/TokenStore.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 32,
+      "value": "\"dev.flyingpigs.petcore.license\""
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+framework module PetcoreSDK {
+  header "PetcoreSDK-Swift.h"
+  requires objc
+}
