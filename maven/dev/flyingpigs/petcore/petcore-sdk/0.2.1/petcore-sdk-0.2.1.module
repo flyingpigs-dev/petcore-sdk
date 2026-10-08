@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.flyingpigs.petcore",
+    "module": "petcore-sdk",
+    "version": "0.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "petcore-sdk-0.2.1.aar",
+          "url": "petcore-sdk-0.2.1.aar",
+          "size": 29124,
+          "sha512": "53a4ca5b4f07570cff02a9c65b054a29adcad37bbc6752a4cb0b45a88e8d6dd0ade88e948ccf315e5d2d827d01df86aeb25eb2776de0f70eceaba63f49c1d538",
+          "sha256": "1f119c6425bb8e2ce7223c6318a927491e0a3d1f1a07368daf7ca7992a4dfc48",
+          "sha1": "9c402f3bfe79de140a881ba9b5d7469cb176ff35",
+          "md5": "ec9b8b8c03da8be5c5ef91e682025968"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.8.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "petcore-sdk-0.2.1.aar",
+          "url": "petcore-sdk-0.2.1.aar",
+          "size": 29124,
+          "sha512": "53a4ca5b4f07570cff02a9c65b054a29adcad37bbc6752a4cb0b45a88e8d6dd0ade88e948ccf315e5d2d827d01df86aeb25eb2776de0f70eceaba63f49c1d538",
+          "sha256": "1f119c6425bb8e2ce7223c6318a927491e0a3d1f1a07368daf7ca7992a4dfc48",
+          "sha1": "9c402f3bfe79de140a881ba9b5d7469cb176ff35",
+          "md5": "ec9b8b8c03da8be5c5ef91e682025968"
+        }
+      ]
+    }
+  ]
+}

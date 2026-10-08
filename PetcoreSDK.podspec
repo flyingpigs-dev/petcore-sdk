@@ -1,9 +1,9 @@
 # CocoaPods route for apps that don't use Swift Package Manager yet.
 # Customers reference it from their Podfile (this repo is private):
-#   pod 'PetcoreSDK', :git => 'https://github.com/flyingpigs-dev/petcore-sdk.git', :tag => '0.2.0'
+#   pod 'PetcoreSDK', :git => 'https://github.com/flyingpigs-dev/petcore-sdk.git', :tag => '0.2.1'
 Pod::Spec.new do |s|
   s.name                = 'PetcoreSDK'
-  s.version             = '0.2.0' # set by scripts/set_version.sh
+  s.version             = '0.2.1' # set by scripts/set_version.sh
   s.summary             = 'PetCore SDK closed core (prebuilt XCFramework).'
   s.homepage            = 'https://github.com/flyingpigs-dev/petcore-sdk'
   s.license             = { :type => 'Proprietary', :text => 'See the PetCore SDK license agreement.' }

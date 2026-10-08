@@ -14,7 +14,7 @@ license key; contact flyingpigs.dev@gmail.com.
 CocoaPods projects add one line to `ios/Podfile`, inside `target 'Runner' do`:
 
 ```ruby
-pod 'PetcoreSDK', :git => 'https://github.com/flyingpigs-dev/petcore-sdk.git', :tag => '0.2.0'
+pod 'PetcoreSDK', :git => 'https://github.com/flyingpigs-dev/petcore-sdk.git', :tag => '0.2.1'
 ```
 
 Use of these binaries is governed by the PetCore SDK license agreement (see the `petcore_sdk` package).

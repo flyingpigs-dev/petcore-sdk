@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Privacy manifest of the PetCore SDK iOS core (PetcoreSDK.framework).
+  - No tracking, no tracking domains.
+  - Collected data types: none. The SDK sends only license data (license key, app bundle ID,
+    platform, SDK version) to the license server to validate the license; nothing about the user.
+  - Required-reason API: UserDefaults, read once to migrate a license token cached by SDK 0.1.x
+    (the SDK's own data, written by this app). Reason CA92.1.
+  Re-check this list when the core starts using another required-reason API (file timestamps,
+  disk space, system boot time, active keyboards).
+-->
+<plist version="1.0">
+<dict>
+	<key>NSPrivacyTracking</key>
+	<false/>
+	<key>NSPrivacyTrackingDomains</key>
+	<array/>
+	<key>NSPrivacyCollectedDataTypes</key>
+	<array/>
+	<key>NSPrivacyAccessedAPITypes</key>
+	<array>
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>CA92.1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

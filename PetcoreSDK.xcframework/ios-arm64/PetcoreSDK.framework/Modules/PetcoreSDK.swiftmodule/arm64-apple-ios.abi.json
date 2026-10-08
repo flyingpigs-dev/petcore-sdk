@@ -1234,7 +1234,7 @@
       "kind": "StringLiteral",
       "offset": 457,
       "length": 7,
-      "value": "\"0.2.0\""
+      "value": "\"0.2.1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/petcore\/petcore\/native\/ios\/Sources\/PetcoreSDK\/PetcoreClient.swift",
